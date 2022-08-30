@@ -1,0 +1,158 @@
+/* line 2, ../../../Desktop/Polar/src/sass/style.scss */
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+/* line 5, ../../../Desktop/Polar/src/sass/style.scss */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* line 1, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../img/main.jpg) center center/cover no-repeat;
+}
+
+/* line 5, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 90px;
+}
+
+/* line 11, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__header {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 17, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__subheader {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/* line 24, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__icons {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  margin-top: 65px;
+}
+
+/* line 30, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__icon {
+  width: 106px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 37, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 43, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+/* line 48, ../../../Desktop/Polar/src/sass/blocks/_promo.scss */
+.promo__link a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 1, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 5, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__logo {
+  width: 250px;
+}
+
+/* line 7, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__logo img {
+  width: 100%;
+}
+
+/* line 11, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__official {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 16, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__official span {
+  display: block;
+  font-size: 18px;
+}
+
+/* line 21, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__phone {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 27, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__phone:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* line 32, ../../../Desktop/Polar/src/sass/blocks/_header.scss */
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* line 1, ../../../Desktop/Polar/src/sass/blocks/_buttons.scss */
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  bottom: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* line 11, ../../../Desktop/Polar/src/sass/blocks/_buttons.scss */
+.button_main {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  margin-top: 68px;
+}
+
+/*# sourceMappingURL=style.css.map */
