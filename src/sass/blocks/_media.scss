@@ -11,7 +11,6 @@
 	.advantages {
 		padding: 30px;
 	}
-
 	.consultation {
 		display: flex;
 		justify-content: center;
@@ -19,27 +18,85 @@
 			font-size: 20px!important;
 		}
 	}
-
 	.title {
 		&_left {
 			font-size: 30px!important;
 		}
 	}
-
 	.catalog {
 		margin: 10%;
 	}
 }
+
 @media (max-width: 768px) {
 	.promo {
 		padding: 30px;
 		&__header {
 			font-size: 35px;
-			
 		}
 		&__subheader {
 			font-size: 20px;
 		}
 	}
+}
 
+@media (max-width: 576px) {
+	.promo {
+		padding: 10px;
+	}
+	.header__phone {
+		font-size: 15px;
+	}
+	.header__official {
+		display: none;
+	}
+	.promo__header {
+		font-size: 30px;
+      font-weight: 500;
+	}
+	.promo__subheader {
+		font-size: 15px;
+	}
+	.button_main {
+		width: 150px;
+      height: 42px;
+      font-size: 10px;
+	}
+	.promo__link {
+		font-size: 15px;
+	}
+	h2.title {
+	  font-size: 30px;
+     font-weight: 500;
+	}
+	.advantages__wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+	}
+	.consultation {
+		padding: 20px!important;
+	}
+	.slick-dots button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	
+	}
+	.catalog {
+		h2.title {
+			font-size: 27px;
+			font-weight: 500;
+		}
+		&__tab {
+			font-size: 12px!important;
+		}
+		.catalog__content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 }

@@ -21,7 +21,7 @@ $(document).ready(function () {
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					arrows: false,
-					dots:true
+					dots: true
 
 				}
 			},
@@ -30,7 +30,7 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
-					dots:true
+					dots: true
 				}
 			}
 			// You can unslick at a given breakpoint now by adding:
