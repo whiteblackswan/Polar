@@ -6,12 +6,36 @@ $(document).ready(function () {
 		nextArrow: '<button type="button" class="slick-next"><img src="img/carousel/right.png"></button>',
 		responsive: [
 			{
-				breakpoint: 992,
+				breakpoint: 1024,
 				settings: {
-					dots: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+					arrows: true
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
 					arrows: false,
+					dots:true
+
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					dots:true
 				}
 			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
 		]
 	});
 

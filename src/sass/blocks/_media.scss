@@ -1,17 +1,45 @@
-@media screen and (max-width: 575px) {
+@media (max-width: 992px) {
 	.promo {
-		display: flex;
-		flex-direction: column;
-		height: 100vh;
-		align-content: flex-end;
-		flex-wrap: wrap;
-		
-
-	.container {
-			/*width: 200px;*/
-
+		padding: 30px;
+		&__header {
+			font-size: 36px;
+		}
+		&__subheader {
+			font-size: 19px;
 		}
 	}
-	
-}
+	.advantages {
+		padding: 30px;
+	}
 
+	.consultation {
+		display: flex;
+		justify-content: center;
+		&__descr {
+			font-size: 20px!important;
+		}
+	}
+
+	.title {
+		&_left {
+			font-size: 30px!important;
+		}
+	}
+
+	.catalog {
+		margin: 10%;
+	}
+}
+@media (max-width: 768px) {
+	.promo {
+		padding: 30px;
+		&__header {
+			font-size: 35px;
+			
+		}
+		&__subheader {
+			font-size: 20px;
+		}
+	}
+
+}
