@@ -18,20 +18,22 @@
 			font-size: 18px;
 		}
 	}
-	&__phone{
+	&__phone {
 		display: block;
+		color: #ffffff;
 		font-size: 18px;
 		font-weight: 700;
-		color: #ffffff;
 		text-decoration: none;
 		&:hover {
-			text-decoration: none;
-			color: #ffffff;
+			 color: #fff;
+			 text-decoration: none;
 		}
-	}
+  }
 	&__contacts {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
+		
 	}
+	
 }

@@ -1,102 +1,60 @@
 @media (max-width: 992px) {
-	.promo {
-		padding: 30px;
+	
+		.promo {
+		padding: 20px;
 		&__header {
-			font-size: 36px;
-		}
-		&__subheader {
-			font-size: 19px;
-		}
-	}
-	.advantages {
-		padding: 30px;
-	}
-	.consultation {
-		display: flex;
-		justify-content: center;
-		&__descr {
-			font-size: 20px!important;
+			display: block;
+			font-size: 30px;
+			font-weight: 600;
 		}
 	}
-	.title {
-		&_left {
-			font-size: 30px!important;
+	.button {
+		&_main {
+			width: 230px;
 		}
-	}
-	.catalog {
-		margin: 10%;
-	}
-}
-
-@media (max-width: 768px) {
-	.promo {
-		padding: 30px;
-		&__header {
-			font-size: 35px;
-		}
-		&__subheader {
-			font-size: 20px;
-		}
-	}
-}
-
-@media (max-width: 576px) {
-	.promo {
-		padding: 10px;
-	}
-	.header__phone {
-		font-size: 15px;
-	}
-	.header__official {
-		display: none;
-	}
-	.promo__header {
-		font-size: 30px;
-      font-weight: 500;
-	}
-	.promo__subheader {
-		font-size: 15px;
-	}
-	.button_main {
-		width: 150px;
-      height: 42px;
-      font-size: 10px;
 	}
 	.promo__link {
 		font-size: 15px;
 	}
-	h2.title {
-	  font-size: 30px;
-     font-weight: 500;
-	}
-	.advantages__wrapper {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-	}
-	.consultation {
-		padding: 20px!important;
-	}
-	.slick-dots button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	
-	}
-	.catalog {
+
+	.advantages {
+		padding: 40px 0 55px 0;
+		margin: 10px;
+		&__wrapper {
+			padding: 20px;
+		}
 		h2.title {
-			font-size: 27px;
-			font-weight: 500;
+			font-size: 28px;
+			font-weight: 600;
 		}
-		&__tab {
-			font-size: 12px!important;
+		&__item {
+			margin: 5px;
 		}
-		.catalog__content {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+		&__descr {
+			font-size: 13px;
+			font-weight: 550;
 		}
 	}
+
+	body .consultation {
+		padding: 45px 20px 40px 50px;
+		}
+	h2.title_left {
+		font-size: 24px;
+      font-weight: 600;
+	}
+
+	body .catalog {
+		padding: 0px 50px;
+		padding-bottom: 50px;
+	}
+
+	body .feed {
+		padding-bottom: 30px;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	
 }
